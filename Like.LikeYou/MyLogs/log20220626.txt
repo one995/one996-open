@@ -1,0 +1,18 @@
+Time: 12:16:45.377 EventLevel:Debug data:Hosting starting
+Time: 12:16:46.999 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 12:16:47.002 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 12:16:47.003 EventLevel:Information data:Hosting environment: "Development"
+Time: 12:16:47.003 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 12:16:47.003 EventLevel:Debug data:Hosting started
+Time: 12:17:05.544 EventLevel:Debug data:Hosting starting
+Time: 12:17:06.793 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 12:17:06.826 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 12:17:06.826 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 12:17:06.827 EventLevel:Information data:Hosting environment: "Development"
+Time: 12:17:06.827 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 12:17:06.828 EventLevel:Debug data:Hosting started
+Time: 12:17:47.564 EventLevel:Debug data:Hosting starting
+Time: 12:17:48.059 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 12:17:48.060 EventLevel:Information data:Hosting environment: "Development"
+Time: 12:17:48.074 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 12:17:48.074 EventLevel:Debug data:Hosting started

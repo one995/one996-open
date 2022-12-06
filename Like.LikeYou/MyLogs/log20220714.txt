@@ -1,0 +1,11 @@
+Time: 21:37:26.140 EventLevel:Debug data:Hosting starting
+Time: 21:37:27.574 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 21:37:27.582 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 21:37:27.582 EventLevel:Information data:Hosting environment: "Development"
+Time: 21:37:27.583 EventLevel:Information data:Content root path: "F:\code\authorized-service-center\Like.LikeYou"
+Time: 21:37:27.583 EventLevel:Debug data:Hosting started
+Time: 21:38:03.999 EventLevel:Warning data:Failed to determine the https port for redirect.
+Time: 21:38:04.959 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 21:38:05.770 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 22:38:01.004 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 22:38:01.067 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20

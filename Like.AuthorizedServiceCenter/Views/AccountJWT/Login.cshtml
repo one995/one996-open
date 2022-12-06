@@ -1,0 +1,167 @@
+﻿@using Like.Model.ViewModel
+@model LoginViewModel
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Login</title>
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <link rel="icon" type="~/image/png" href="~/assets/i/favicon.png">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="~/assets/i/app-icon72x72@2x.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="apple-touch-icon-precomposed" href="~/assets/i/app-icon72x72@2x.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="~/assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+    <link rel="stylesheet" href="~/assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="~/assets/css/app.css">
+    <link rel="stylesheet" href="~/js/layui/css/layui.css">
+</head>
+<body background="~/assets/i/f17.jpg">
+    <header>
+        <div class="log-header">
+            <h1><a href="/">Amaze UI</a> </h1>
+        </div>
+        <div class="log-re">
+            <p class="am-btn am-btn-default am-radius log-button"><a href="/accountjwt/Reregister">注册</a></p>
+        </div>
+    </header>
+
+    <div class="log">
+        <div class="am-g">
+            <div class="am-u-lg-3 am-u-md-6 am-u-sm-8 am-u-sm-centered log-content">
+                <h1 class="log-title am-animation-slide-top">Like You</h1>
+                <br>
+                <form class="layui-form" id="log-form" method="post">
+                    @* @Html.AntiForgeryToken()*@
+                    <input type="hidden" name="ReturnUrl" id="ReturnUrl" value=@Model.ReturnUrl />
+                    <div class="am-input-group am-radius am-animation-slide-left">
+                        <input name="email" type="email" lay-verify="required|email" id="doc-vld-email-2-1" class="layui-input" data-validation-message="请输入正确邮箱地址" placeholder="邮箱" />
+                        <span class="am-input-group-label log-icon am-radius"><i class="am-icon-user am-icon-sm am-icon-fw"></i></span>
+                    </div>
+                    <br>
+                    <div class="am-input-group am-animation-slide-left log-animation-delay">
+                        <input name="password" lay-verify="required|password" type="password" class="layui-input" placeholder="密码" required>
+                        <span class="am-input-group-label log-icon am-radius"><i class="am-icon-lock am-icon-sm am-icon-fw"></i></span>
+                    </div>
+                    <br>
+                    <button lay-submit lay-filter="formDemo" name="button" value="登 录" class="am-btn am-btn-primary am-btn-block am-btn-lg am-radius am-animation-slide-bottom log-animation-delay">登 录</button>
+                    <p class="am-animation-slide-bottom log-animation-delay"><a href="#">忘记密码?</a></p>
+                    <div class="am-btn-group  am-animation-slide-bottom log-animation-delay-b">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer class="log-footer">
+            @await Html.PartialAsync("/Views/Base/Foot.cshtml")
+        </footer>
+    </div>
+
+
+
+    <!--[if (gte IE 9)|!(IE)]><!-->
+    <script src="~/assets/js/jquery.min.js"></script>
+    <!--<![endif]-->
+    <!--[if lte IE 8 ]>
+    <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+    <script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+    <![endif]-->
+    <script src="~/assets/js/amazeui.min.js"></script>
+    <script src="~/assets/js/app.js"></script>
+    @*<script src="~/js/layui/layui.js"></script>*@
+    <script src="~/js/verify/verify.js"></script>
+    <script src="~/js/layuiAdmin/layui.all.js"></script>
+     <script src="~/js/layuiAdmin/layui.js"></script>
+    <script>
+        var ReturnUrl =$("#ReturnUrl").val();
+
+         //Demo
+         layui.use('form', function () {
+             var form = layui.form;
+             var layuer = layui.layer;
+             //监听提交
+             form.on('submit(formDemo)', function (data) {
+                 var maintenancePlace = JSON.stringify(data.field);
+                  //请求登入接口
+             admin.req({
+                 //实际使用请改成服务端真实接口
+                 url: '/accountjwt/email',
+                 method: 'POST',
+                 dataType: 'json',
+                 contentType: "application/json",
+                 data: maintenancePlace,
+                 done: function (res) {
+                     if (res.statusCode === 200) {
+                         //请求成功后，写入 access_token
+                         layui.data(setter.tableName, {
+                             key: "token",
+                             value: res.data.Token
+                         });
+                         //登入成功的提示与跳转
+                         layer.msg(res.message, {
+                             offset: '15px',
+                             icon: 1,
+                             time: 1000
+                         }, function () {
+                             location.href ="../admin/index"
+
+                         });
+                     } else {
+                         layer.msg(res.message, {
+                             offset: '15px',
+                             icon: 1,
+                             time: 1000
+                         });
+                     }
+                 }
+             });
+                 //var maintenancePlace = JSON.stringify(data.field);
+                 //console.log(data.field)
+                 //$.ajax({
+                 //    url: '/accountjwt/email',
+                 //    type: 'post',
+                 //    dataType: 'json',
+                 //    contentType: "application/json",
+                 //    data: maintenancePlace,
+                 //    success: function (data1) {
+                 //        if(data1.statusCode==200){
+                 //            layuer.msg("登录成功");
+                 //        }else{
+                 //             layuer.msg(data1.message);
+                 //        }
+                 //    },
+                 //    error: function (data) {
+                 //         layuer.msg(data.Message);
+                 //    }
+                 //})
+                 //return false;
+             });
+         });
+    </script>
+</body>
+</html>

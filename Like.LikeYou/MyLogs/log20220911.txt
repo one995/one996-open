@@ -1,0 +1,177 @@
+Time: 16:27:55.542 EventLevel:Information data:select TABLE_NAME as Name,TABLE_COMMENT as Description from information_schema.tables
+                         where  TABLE_SCHEMA=(select database())  AND TABLE_TYPE='BASE TABLE'
+Time: 16:27:55.620 EventLevel:Information data:SELECT
+                                    0 as TableId,
+                                    TABLE_NAME as TableName, 
+                                    column_name AS DbColumnName,
+                                    CASE WHEN  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1)='' THEN COLUMN_TYPE ELSE  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1) END   AS DataType,
+                                    CAST(SUBSTRING(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)+1,LOCATE(')',COLUMN_TYPE)-LOCATE('(',COLUMN_TYPE)-1) AS signed) AS Length,
+                                    column_default  AS  `DefaultValue`,
+                                    column_comment  AS  `ColumnDescription`,
+                                    CASE WHEN COLUMN_KEY = 'PRI'
+                                    THEN true ELSE false END AS `IsPrimaryKey`,
+                                    CASE WHEN EXTRA='auto_increment' THEN true ELSE false END as IsIdentity,
+                                    CASE WHEN is_nullable = 'YES'
+                                    THEN true ELSE false END AS `IsNullable`,
+                                    numeric_scale as Scale,
+                                    numeric_scale as DecimalDigits
+                                    FROM
+                                    Information_schema.columns where TABLE_NAME='AdminUser' and  TABLE_SCHEMA=(select database()) ORDER BY ordinal_position
+Time: 16:27:55.645 EventLevel:Information data:ALTER TABLE `AdminUser` COMMENT='';
+Time: 16:27:55.652 EventLevel:Information data:SELECT
+                                    0 as TableId,
+                                    TABLE_NAME as TableName, 
+                                    column_name AS DbColumnName,
+                                    CASE WHEN  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1)='' THEN COLUMN_TYPE ELSE  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1) END   AS DataType,
+                                    CAST(SUBSTRING(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)+1,LOCATE(')',COLUMN_TYPE)-LOCATE('(',COLUMN_TYPE)-1) AS signed) AS Length,
+                                    column_default  AS  `DefaultValue`,
+                                    column_comment  AS  `ColumnDescription`,
+                                    CASE WHEN COLUMN_KEY = 'PRI'
+                                    THEN true ELSE false END AS `IsPrimaryKey`,
+                                    CASE WHEN EXTRA='auto_increment' THEN true ELSE false END as IsIdentity,
+                                    CASE WHEN is_nullable = 'YES'
+                                    THEN true ELSE false END AS `IsNullable`,
+                                    numeric_scale as Scale,
+                                    numeric_scale as DecimalDigits
+                                    FROM
+                                    Information_schema.columns where TABLE_NAME='AdminUser' and  TABLE_SCHEMA=(select database()) ORDER BY ordinal_position
+Time: 16:27:55.727 EventLevel:Information data:select TABLE_NAME as Name,TABLE_COMMENT as Description from information_schema.tables
+                         where  TABLE_SCHEMA=(select database())  AND TABLE_TYPE='BASE TABLE'
+Time: 16:27:55.761 EventLevel:Information data:SELECT
+                                    0 as TableId,
+                                    TABLE_NAME as TableName, 
+                                    column_name AS DbColumnName,
+                                    CASE WHEN  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1)='' THEN COLUMN_TYPE ELSE  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1) END   AS DataType,
+                                    CAST(SUBSTRING(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)+1,LOCATE(')',COLUMN_TYPE)-LOCATE('(',COLUMN_TYPE)-1) AS signed) AS Length,
+                                    column_default  AS  `DefaultValue`,
+                                    column_comment  AS  `ColumnDescription`,
+                                    CASE WHEN COLUMN_KEY = 'PRI'
+                                    THEN true ELSE false END AS `IsPrimaryKey`,
+                                    CASE WHEN EXTRA='auto_increment' THEN true ELSE false END as IsIdentity,
+                                    CASE WHEN is_nullable = 'YES'
+                                    THEN true ELSE false END AS `IsNullable`,
+                                    numeric_scale as Scale,
+                                    numeric_scale as DecimalDigits
+                                    FROM
+                                    Information_schema.columns where TABLE_NAME='User' and  TABLE_SCHEMA=(select database()) ORDER BY ordinal_position
+Time: 16:27:55.778 EventLevel:Information data:alter table `User` change  column `UserName` `UserName` Nvarchar(255) NOT NULL  
+Time: 16:27:55.785 EventLevel:Information data:alter table `User` change  column `PassWord` `PassWord` Nvarchar(255) NOT NULL  
+Time: 16:27:55.847 EventLevel:Information data:alter table `User` change  column `CreateUser` `CreateUser` Nvarchar(255) DEFAULT NULL  
+Time: 16:27:55.854 EventLevel:Information data:alter table `User` change  column `PhoneNumber` `PhoneNumber` Nvarchar(255) DEFAULT NULL  
+Time: 16:27:55.864 EventLevel:Information data:alter table `User` change  column `PersonID` `PersonID` Nvarchar(255) DEFAULT NULL  
+Time: 16:27:55.868 EventLevel:Information data:alter table `User` change  column `NikoID` `NikoID` Nvarchar(255) DEFAULT NULL  
+Time: 16:27:55.871 EventLevel:Information data:alter table `User` change  column `IDCard` `IDCard` Nvarchar(255) DEFAULT NULL  
+Time: 16:27:55.877 EventLevel:Information data:alter table `User` change  column `Eamil` `Eamil` Nvarchar(50) DEFAULT NULL  
+Time: 16:27:55.884 EventLevel:Information data:alter table `User` change  column `remake` `remake` Nvarchar(255) DEFAULT NULL  
+Time: 16:27:55.889 EventLevel:Information data:alter table `User` change  column `usertile` `usertile` Nvarchar(500) DEFAULT NULL  
+Time: 16:27:55.893 EventLevel:Information data:alter table `User` change  column `address` `address` Nvarchar(500) DEFAULT NULL  
+Time: 16:27:55.897 EventLevel:Information data:alter table `User` change  column `nationplace` `nationplace` Nvarchar(100) DEFAULT NULL  
+Time: 16:27:55.905 EventLevel:Information data:alter table `User` change  column `commpany` `commpany` Nvarchar(255) DEFAULT NULL  
+Time: 16:27:55.909 EventLevel:Information data:alter table `User` change  column `depatment` `depatment` Nvarchar(255) DEFAULT NULL  
+Time: 16:27:55.915 EventLevel:Information data:alter table `User` change  column `technology` `technology` Nvarchar(255) DEFAULT NULL  
+Time: 16:27:55.919 EventLevel:Information data:alter table `User` change  column `QQNumber` `QQNumber` Nvarchar(50) DEFAULT NULL  
+Time: 16:27:55.938 EventLevel:Information data:ALTER TABLE `User` COMMENT='';
+Time: 16:27:55.941 EventLevel:Information data:SELECT
+                                    0 as TableId,
+                                    TABLE_NAME as TableName, 
+                                    column_name AS DbColumnName,
+                                    CASE WHEN  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1)='' THEN COLUMN_TYPE ELSE  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1) END   AS DataType,
+                                    CAST(SUBSTRING(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)+1,LOCATE(')',COLUMN_TYPE)-LOCATE('(',COLUMN_TYPE)-1) AS signed) AS Length,
+                                    column_default  AS  `DefaultValue`,
+                                    column_comment  AS  `ColumnDescription`,
+                                    CASE WHEN COLUMN_KEY = 'PRI'
+                                    THEN true ELSE false END AS `IsPrimaryKey`,
+                                    CASE WHEN EXTRA='auto_increment' THEN true ELSE false END as IsIdentity,
+                                    CASE WHEN is_nullable = 'YES'
+                                    THEN true ELSE false END AS `IsNullable`,
+                                    numeric_scale as Scale,
+                                    numeric_scale as DecimalDigits
+                                    FROM
+                                    Information_schema.columns where TABLE_NAME='User' and  TABLE_SCHEMA=(select database()) ORDER BY ordinal_position
+Time: 16:27:56.020 EventLevel:Information data:select TABLE_NAME as Name,TABLE_COMMENT as Description from information_schema.tables
+                         where  TABLE_SCHEMA=(select database())  AND TABLE_TYPE='BASE TABLE'
+Time: 16:27:56.024 EventLevel:Information data:SELECT
+                                    0 as TableId,
+                                    TABLE_NAME as TableName, 
+                                    column_name AS DbColumnName,
+                                    CASE WHEN  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1)='' THEN COLUMN_TYPE ELSE  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1) END   AS DataType,
+                                    CAST(SUBSTRING(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)+1,LOCATE(')',COLUMN_TYPE)-LOCATE('(',COLUMN_TYPE)-1) AS signed) AS Length,
+                                    column_default  AS  `DefaultValue`,
+                                    column_comment  AS  `ColumnDescription`,
+                                    CASE WHEN COLUMN_KEY = 'PRI'
+                                    THEN true ELSE false END AS `IsPrimaryKey`,
+                                    CASE WHEN EXTRA='auto_increment' THEN true ELSE false END as IsIdentity,
+                                    CASE WHEN is_nullable = 'YES'
+                                    THEN true ELSE false END AS `IsNullable`,
+                                    numeric_scale as Scale,
+                                    numeric_scale as DecimalDigits
+                                    FROM
+                                    Information_schema.columns where TABLE_NAME='role' and  TABLE_SCHEMA=(select database()) ORDER BY ordinal_position
+Time: 16:27:56.038 EventLevel:Information data:ALTER TABLE `role` COMMENT='';
+Time: 16:27:56.078 EventLevel:Information data:SELECT
+                                    0 as TableId,
+                                    TABLE_NAME as TableName, 
+                                    column_name AS DbColumnName,
+                                    CASE WHEN  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1)='' THEN COLUMN_TYPE ELSE  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1) END   AS DataType,
+                                    CAST(SUBSTRING(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)+1,LOCATE(')',COLUMN_TYPE)-LOCATE('(',COLUMN_TYPE)-1) AS signed) AS Length,
+                                    column_default  AS  `DefaultValue`,
+                                    column_comment  AS  `ColumnDescription`,
+                                    CASE WHEN COLUMN_KEY = 'PRI'
+                                    THEN true ELSE false END AS `IsPrimaryKey`,
+                                    CASE WHEN EXTRA='auto_increment' THEN true ELSE false END as IsIdentity,
+                                    CASE WHEN is_nullable = 'YES'
+                                    THEN true ELSE false END AS `IsNullable`,
+                                    numeric_scale as Scale,
+                                    numeric_scale as DecimalDigits
+                                    FROM
+                                    Information_schema.columns where TABLE_NAME='role' and  TABLE_SCHEMA=(select database()) ORDER BY ordinal_position
+Time: 16:27:56.145 EventLevel:Information data:select TABLE_NAME as Name,TABLE_COMMENT as Description from information_schema.tables
+                         where  TABLE_SCHEMA=(select database())  AND TABLE_TYPE='BASE TABLE'
+Time: 16:27:56.150 EventLevel:Information data:SELECT
+                                    0 as TableId,
+                                    TABLE_NAME as TableName, 
+                                    column_name AS DbColumnName,
+                                    CASE WHEN  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1)='' THEN COLUMN_TYPE ELSE  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1) END   AS DataType,
+                                    CAST(SUBSTRING(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)+1,LOCATE(')',COLUMN_TYPE)-LOCATE('(',COLUMN_TYPE)-1) AS signed) AS Length,
+                                    column_default  AS  `DefaultValue`,
+                                    column_comment  AS  `ColumnDescription`,
+                                    CASE WHEN COLUMN_KEY = 'PRI'
+                                    THEN true ELSE false END AS `IsPrimaryKey`,
+                                    CASE WHEN EXTRA='auto_increment' THEN true ELSE false END as IsIdentity,
+                                    CASE WHEN is_nullable = 'YES'
+                                    THEN true ELSE false END AS `IsNullable`,
+                                    numeric_scale as Scale,
+                                    numeric_scale as DecimalDigits
+                                    FROM
+                                    Information_schema.columns where TABLE_NAME='HomeSet' and  TABLE_SCHEMA=(select database()) ORDER BY ordinal_position
+Time: 16:27:56.162 EventLevel:Information data:alter table `HomeSet` change  column `RecommendedArtTitle` `RecommendedArtTitle` Nvarchar(50) DEFAULT NULL  
+Time: 16:27:56.166 EventLevel:Information data:alter table `HomeSet` change  column `RecommendedArtRUL` `RecommendedArtRUL` Nvarchar(500) DEFAULT NULL  
+Time: 16:27:56.171 EventLevel:Information data:alter table `HomeSet` change  column `RecommendedArt` `RecommendedArt` Nvarchar(500) DEFAULT NULL  
+Time: 16:27:56.193 EventLevel:Information data:alter table `HomeSet` change  column `HotArt` `HotArt` Nvarchar(5000) DEFAULT NULL  
+Time: 16:27:56.198 EventLevel:Information data:alter table `HomeSet` change  column `EvedayOne` `EvedayOne` Nvarchar(200) DEFAULT NULL  
+Time: 16:27:56.216 EventLevel:Information data:alter table `HomeSet` change  column `SiteShow` `SiteShow` Nvarchar(500) DEFAULT NULL  
+Time: 16:27:56.221 EventLevel:Information data:alter table `HomeSet` change  column `HomePicShow` `HomePicShow` Nvarchar(1500) DEFAULT NULL  
+Time: 16:27:56.225 EventLevel:Information data:ALTER TABLE `HomeSet` COMMENT='';
+Time: 16:27:56.237 EventLevel:Information data:SELECT
+                                    0 as TableId,
+                                    TABLE_NAME as TableName, 
+                                    column_name AS DbColumnName,
+                                    CASE WHEN  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1)='' THEN COLUMN_TYPE ELSE  left(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)-1) END   AS DataType,
+                                    CAST(SUBSTRING(COLUMN_TYPE,LOCATE('(',COLUMN_TYPE)+1,LOCATE(')',COLUMN_TYPE)-LOCATE('(',COLUMN_TYPE)-1) AS signed) AS Length,
+                                    column_default  AS  `DefaultValue`,
+                                    column_comment  AS  `ColumnDescription`,
+                                    CASE WHEN COLUMN_KEY = 'PRI'
+                                    THEN true ELSE false END AS `IsPrimaryKey`,
+                                    CASE WHEN EXTRA='auto_increment' THEN true ELSE false END as IsIdentity,
+                                    CASE WHEN is_nullable = 'YES'
+                                    THEN true ELSE false END AS `IsNullable`,
+                                    numeric_scale as Scale,
+                                    numeric_scale as DecimalDigits
+                                    FROM
+                                    Information_schema.columns where TABLE_NAME='HomeSet' and  TABLE_SCHEMA=(select database()) ORDER BY ordinal_position
+Time: 16:27:56.627 EventLevel:Debug data:Hosting starting
+Time: 16:27:57.705 EventLevel:Information data:Now listening on: "http://[::]:5000"
+Time: 16:27:57.712 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 16:27:57.712 EventLevel:Information data:Hosting environment: "Development"
+Time: 16:27:57.712 EventLevel:Information data:Content root path: "F:\code\authorized-service-center\Like.LikeYou"
+Time: 16:27:57.713 EventLevel:Debug data:Hosting started

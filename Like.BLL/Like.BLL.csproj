@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Like.Dal\Like.Dao.csproj" />
+    <ProjectReference Include="..\Like.Model\Like.Model.csproj" />
+  </ItemGroup>
+
+</Project>

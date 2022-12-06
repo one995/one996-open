@@ -1,0 +1,143 @@
+Time: 10:15:14.664 EventLevel:Debug data:Hosting starting
+Time: 10:15:15.847 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 10:15:15.852 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 10:15:15.853 EventLevel:Information data:Hosting environment: "Development"
+Time: 10:15:15.853 EventLevel:Information data:Content root path: "F:\code\authorized-service-center\Like.LikeYou"
+Time: 10:15:15.853 EventLevel:Debug data:Hosting started
+Time: 16:00:54.951 EventLevel:Debug data:Hosting starting
+Time: 16:00:55.633 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 16:00:55.639 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 16:00:55.639 EventLevel:Information data:Hosting environment: "Development"
+Time: 16:00:55.639 EventLevel:Information data:Content root path: "F:\code\authorized-service-center\Like.LikeYou"
+Time: 16:00:55.640 EventLevel:Debug data:Hosting started
+Time: 16:13:55.251 EventLevel:Warning data:Failed to determine the https port for redirect.
+Time: 16:13:56.472 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 16:13:57.454 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 16:17:13.938 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 16:17:14.043 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 16:17:18.466 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Const0 ) 
+Time: 16:17:18.587 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `Isdelete` = @Const0 )   LIMIT 0,20
+Time: 16:17:19.349 EventLevel:Information data:Article
+Time: 16:54:11.903 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Const0 ) 
+Time: 16:54:11.952 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `Isdelete` = @Const0 )   LIMIT 0,20
+Time: 16:54:14.724 EventLevel:Information data:Article
+Time: 17:08:56.723 EventLevel:Debug data:Hosting starting
+Time: 17:08:57.490 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 17:08:57.498 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 17:08:57.498 EventLevel:Information data:Hosting environment: "Development"
+Time: 17:08:57.498 EventLevel:Information data:Content root path: "F:\code\authorized-service-center\Like.LikeYou"
+Time: 17:08:57.498 EventLevel:Debug data:Hosting started
+Time: 17:20:42.181 EventLevel:Warning data:Failed to determine the https port for redirect.
+Time: 17:20:43.237 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 17:20:44.629 EventLevel:Information data:OnLogExecuted:-0-Start-usetime:00:00:01.3851520
+Time: 17:20:44.644 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 17:38:29.841 EventLevel:Debug data:Hosting starting
+Time: 17:38:30.554 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 17:38:30.559 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 17:38:30.559 EventLevel:Information data:Hosting environment: "Development"
+Time: 17:38:30.559 EventLevel:Information data:Content root path: "F:\code\authorized-service-center\Like.LikeYou"
+Time: 17:38:30.559 EventLevel:Debug data:Hosting started
+Time: 17:47:57.937 EventLevel:Warning data:Failed to determine the https port for redirect.
+Time: 17:47:58.876 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 17:47:59.799 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 17:52:15.518 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 17:52:15.720 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 18:15:00.162 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 18:15:00.337 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 18:15:08.237 EventLevel:Information data:UPDATE `User`  SET
+           `UserName`=@UserName,`PassWord`=@PassWord,`CreateTime`=@CreateTime,`UpdateTime`=@UpdateTime,`CreateUser`=@CreateUser,`PhoneNumber`=@PhoneNumber,`PersonID`=@PersonID,`NikoID`=@NikoID,`PicPath`=@PicPath,`IDCard`=@IDCard,`Role`=@Role,`SEX`=@SEX,`Eamil`=@Eamil,`VIP`=@VIP,`isdelete`=@isdelete,`address`=@address,`userlevel`=@userlevel,`focus`=@focus,`fans`=@fans,`integralid`=@integralid  WHERE (( `id` = @id0 ) AND ( `isdelete` <> @isdelete1 ))
+Time: 18:15:08.297 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 18:15:08.306 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 18:15:51.047 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 18:15:51.075 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 18:20:15.120 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 18:20:15.175 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 18:21:25.088 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 18:21:25.099 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 18:21:57.354 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Const0 ) 
+Time: 18:21:57.369 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `Isdelete` = @Const0 )   LIMIT 0,20
+Time: 18:21:58.083 EventLevel:Information data:Article
+Time: 18:23:57.701 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Const0 ) 
+Time: 18:23:57.716 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `Isdelete` = @Const0 )   LIMIT 0,20
+Time: 18:23:58.181 EventLevel:Information data:Article
+Time: 18:24:35.990 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 18:24:36.030 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 18:28:27.856 EventLevel:Debug data:Hosting starting
+Time: 18:28:28.726 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 18:28:28.738 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 18:28:28.738 EventLevel:Information data:Hosting environment: "Development"
+Time: 18:28:28.738 EventLevel:Information data:Content root path: "F:\code\authorized-service-center\Like.LikeYou"
+Time: 18:28:28.738 EventLevel:Debug data:Hosting started
+Time: 18:42:35.428 EventLevel:Debug data:Hosting starting
+Time: 18:42:36.325 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 18:42:36.334 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 18:42:36.334 EventLevel:Information data:Hosting environment: "Development"
+Time: 18:42:36.334 EventLevel:Information data:Content root path: "F:\code\authorized-service-center\Like.LikeYou"
+Time: 18:42:36.335 EventLevel:Debug data:Hosting started
+Time: 18:57:13.090 EventLevel:Warning data:Failed to determine the https port for redirect.
+Time: 18:57:14.338 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 18:57:15.235 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 19:25:15.356 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 19:25:15.438 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 19:25:25.613 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Const0 ) 
+Time: 19:25:25.638 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `Isdelete` = @Const0 )   LIMIT 0,20
+Time: 19:25:26.549 EventLevel:Information data:Article
+Time: 19:37:39.946 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 19:37:40.175 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 19:37:44.561 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Const0 ) 
+Time: 19:37:44.574 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `Isdelete` = @Const0 )   LIMIT 0,20
+Time: 19:37:46.086 EventLevel:Information data:Article
+Time: 19:38:14.444 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Const0 ) 
+Time: 19:38:14.590 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `Isdelete` = @Const0 )   LIMIT 0,20
+Time: 19:38:19.964 EventLevel:Information data:Article
+Time: 19:51:39.362 EventLevel:Information data:SELECT Count(*) FROM `User`  WHERE ( `isdelete` = @isdelete0 ) 
+Time: 19:51:39.525 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE ( `isdelete` = @isdelete0 )  ORDER BY `CreateUser` DESC LIMIT 0,20
+Time: 21:19:58.695 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Const0 ) 
+Time: 21:19:58.799 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `Isdelete` = @Const0 )   LIMIT 0,20
+Time: 21:20:00.567 EventLevel:Information data:Article
+Time: 21:26:40.143 EventLevel:Debug data:Hosting starting
+Time: 21:26:40.623 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 21:26:40.628 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 21:26:40.628 EventLevel:Information data:Hosting environment: "Development"
+Time: 21:26:40.629 EventLevel:Information data:Content root path: "F:\code\authorized-service-center\Like.LikeYou"
+Time: 21:26:40.629 EventLevel:Debug data:Hosting started
+Time: 21:27:19.669 EventLevel:Warning data:Failed to determine the https port for redirect.
+Time: 21:27:20.373 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE (( `Isdelete` = @Const0 ) AND ( `IsCheck` = @Const1 )) 
+Time: 21:27:20.895 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE (( `Isdelete` = @Const0 ) AND ( `IsCheck` = @Const1 ))  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:27:21.187 EventLevel:Information data:Article
+Time: 21:27:21.554 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE (( `Isdelete` = @Const0 ) AND ( `IsCheck` = @Const1 )) 
+Time: 21:27:21.576 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE (( `Isdelete` = @Const0 ) AND ( `IsCheck` = @Const1 ))  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 21:27:21.736 EventLevel:Information data:Article
+Time: 21:27:23.136 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE (( `Isdelete` = @Const0 ) AND ( `IsCheck` = @Const1 )) 
+Time: 21:27:23.144 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE (( `Isdelete` = @Const0 ) AND ( `IsCheck` = @Const1 ))  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:27:23.312 EventLevel:Information data:Article
+Time: 21:27:23.376 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE (( `Isdelete` = @Const0 ) AND ( `IsCheck` = @Const1 )) 
+Time: 21:27:23.392 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE (( `Isdelete` = @Const0 ) AND ( `IsCheck` = @Const1 ))  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 21:27:23.549 EventLevel:Information data:Article
+Time: 21:29:43.461 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 ) 
+Time: 21:29:43.515 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 )   LIMIT 0,5
+Time: 21:29:43.767 EventLevel:Information data:Article
+Time: 21:29:44.095 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Const0 ) 
+Time: 21:29:44.112 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `Isdelete` = @Const0 )   LIMIT 0,5
+Time: 21:29:44.302 EventLevel:Information data:Article
+Time: 21:29:45.235 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 ) 
+Time: 21:29:45.288 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 )   LIMIT 0,5
+Time: 21:29:45.558 EventLevel:Information data:Article
+Time: 21:29:45.589 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Const0 ) 
+Time: 21:29:45.609 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `Isdelete` = @Const0 )   LIMIT 0,5
+Time: 21:29:45.853 EventLevel:Information data:Article
+Time: 21:29:53.617 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 ) 
+Time: 21:29:53.706 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 )   LIMIT 15,5
+Time: 21:29:53.728 EventLevel:Information data:Article
+Time: 21:29:57.187 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 ) 
+Time: 21:29:57.207 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 )   LIMIT 5,5
+Time: 21:29:57.357 EventLevel:Information data:Article
+Time: 21:30:00.048 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 ) 
+Time: 21:30:00.080 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 )   LIMIT 10,5
+Time: 21:30:00.185 EventLevel:Information data:Article
+Time: 21:30:02.373 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 ) 
+Time: 21:30:02.387 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 )   LIMIT 5,5
+Time: 21:30:02.506 EventLevel:Information data:Article
+Time: 21:30:03.609 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 ) 
+Time: 21:30:03.635 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`,`SeeCount`,`IsCheck`,`CheckUser`,`CheckResult` FROM `article`   WHERE ( `CheckResult` = @CheckResult0 )  AND ( `Isdelete` = @Const1 )   LIMIT 0,5
+Time: 21:30:03.892 EventLevel:Information data:Article

@@ -1,0 +1,408 @@
+Time: 21:06:54.213 EventLevel:Debug data:Hosting starting
+Time: 21:06:55.615 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 21:06:55.625 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 21:06:55.625 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 21:06:55.625 EventLevel:Information data:Hosting environment: "Development"
+Time: 21:06:55.626 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 21:06:55.626 EventLevel:Debug data:Hosting started
+Time: 21:17:44.567 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:17:45.237 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:17:45.494 EventLevel:Information data:Article
+Time: 21:17:46.015 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:17:46.064 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:17:46.314 EventLevel:Information data:Article
+Time: 21:17:47.029 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:17:47.054 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:17:47.359 EventLevel:Information data:Article
+Time: 21:18:02.282 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:18:02.282 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:18:39.316 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:18:39.336 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:18:39.523 EventLevel:Information data:Article
+Time: 21:38:39.988 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:38:40.047 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:38:40.198 EventLevel:Information data:Article
+Time: 21:44:31.336 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:44:31.436 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:44:31.619 EventLevel:Information data:Article
+Time: 21:44:38.396 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:44:38.424 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:44:38.589 EventLevel:Information data:Article
+Time: 21:45:02.785 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:45:02.785 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:49:53.956 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:49:53.957 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:53:54.835 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:53:54.835 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:55:16.511 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:55:16.513 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:57:00.652 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:57:00.652 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:57:06.133 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:57:06.153 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:57:06.331 EventLevel:Information data:Article
+Time: 21:58:53.111 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:58:53.127 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:58:53.349 EventLevel:Information data:Article
+Time: 21:58:55.866 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:58:55.890 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:58:56.198 EventLevel:Information data:Article
+Time: 22:06:34.744 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:06:34.867 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:06:35.289 EventLevel:Information data:Article
+Time: 22:06:36.157 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:06:36.180 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:06:37.711 EventLevel:Information data:Article
+Time: 22:06:52.269 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:06:52.308 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:06:53.500 EventLevel:Information data:Article
+Time: 22:07:49.494 EventLevel:Debug data:Hosting starting
+Time: 22:07:50.010 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 22:07:50.013 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 22:07:50.013 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 22:07:50.013 EventLevel:Information data:Hosting environment: "Development"
+Time: 22:07:50.013 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 22:07:50.013 EventLevel:Debug data:Hosting started
+Time: 22:07:55.891 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:07:56.320 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:07:56.509 EventLevel:Information data:Article
+Time: 22:07:58.977 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:07:59.105 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:07:59.333 EventLevel:Information data:Article
+Time: 22:08:03.859 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:08:03.993 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:08:04.258 EventLevel:Information data:Article
+Time: 22:08:04.360 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:08:04.482 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:08:04.633 EventLevel:Information data:Article
+Time: 22:13:54.914 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:13:54.953 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:13:55.191 EventLevel:Information data:Article
+Time: 22:13:55.481 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:13:55.493 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:13:55.589 EventLevel:Information data:Article
+Time: 22:13:56.251 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:13:56.278 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:13:56.462 EventLevel:Information data:Article
+Time: 22:13:56.778 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:13:56.802 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:13:56.916 EventLevel:Information data:Article
+Time: 22:15:36.626 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:15:36.650 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:15:36.861 EventLevel:Information data:Article
+Time: 22:15:36.901 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:15:36.938 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:15:37.033 EventLevel:Information data:Article
+Time: 22:15:37.413 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:15:37.432 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:15:37.641 EventLevel:Information data:Article
+Time: 22:15:37.700 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:15:37.727 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:15:37.834 EventLevel:Information data:Article
+Time: 22:19:48.135 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:19:48.159 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:19:48.465 EventLevel:Information data:Article
+Time: 22:19:48.500 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:19:48.561 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:19:48.658 EventLevel:Information data:Article
+Time: 22:19:49.079 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:19:49.094 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:19:49.203 EventLevel:Information data:Article
+Time: 22:19:49.234 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:19:49.243 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:19:49.339 EventLevel:Information data:Article
+Time: 22:41:04.042 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:41:04.135 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:41:04.364 EventLevel:Information data:Article
+Time: 22:41:04.651 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:41:04.715 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:41:04.821 EventLevel:Information data:Article
+Time: 22:41:05.983 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:41:06.007 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:41:06.176 EventLevel:Information data:Article
+Time: 22:41:06.798 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:41:06.841 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:41:07.000 EventLevel:Information data:Article
+Time: 22:45:58.610 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:45:58.627 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:45:58.848 EventLevel:Information data:Article
+Time: 22:45:59.066 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:45:59.083 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:45:59.148 EventLevel:Information data:Article
+Time: 22:46:00.192 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:46:00.199 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:46:00.342 EventLevel:Information data:Article
+Time: 22:46:00.552 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:46:00.567 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:46:00.660 EventLevel:Information data:Article
+Time: 22:53:50.254 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:53:51.695 EventLevel:Information data:OnLogExecuted:-0-Start-usetime:00:00:01.4344108
+Time: 22:53:51.696 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:53:52.678 EventLevel:Information data:Article
+Time: 22:53:52.943 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:53:52.976 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:53:53.047 EventLevel:Information data:Article
+Time: 22:53:53.666 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:53:53.678 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:53:54.407 EventLevel:Information data:Article
+Time: 22:53:56.501 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:53:56.508 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:53:56.577 EventLevel:Information data:Article
+Time: 22:54:00.396 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:54:00.403 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:54:00.556 EventLevel:Information data:Article
+Time: 22:54:24.170 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:54:24.188 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:54:24.386 EventLevel:Information data:Article
+Time: 22:54:30.218 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:54:30.247 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:54:30.432 EventLevel:Information data:Article
+Time: 22:54:35.439 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:54:35.494 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:54:35.724 EventLevel:Information data:Article
+Time: 22:54:44.764 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:54:44.780 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:54:44.926 EventLevel:Information data:Article
+Time: 22:54:48.805 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:54:48.816 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:54:49.012 EventLevel:Information data:Article
+Time: 22:55:00.181 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:55:00.196 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:55:00.352 EventLevel:Information data:Article
+Time: 22:55:05.822 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:55:05.834 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:55:05.977 EventLevel:Information data:Article
+Time: 22:58:23.522 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:23.580 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:23.731 EventLevel:Information data:Article
+Time: 22:58:24.027 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:24.054 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:58:24.151 EventLevel:Information data:Article
+Time: 22:58:24.828 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:24.871 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:25.056 EventLevel:Information data:Article
+Time: 22:58:25.226 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:25.253 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 22:58:25.371 EventLevel:Information data:Article
+Time: 22:58:41.491 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:41.545 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:41.706 EventLevel:Information data:Article
+Time: 22:58:46.209 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:46.247 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:46.394 EventLevel:Information data:Article
+Time: 22:58:47.421 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:47.429 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:47.643 EventLevel:Information data:Article
+Time: 22:58:48.720 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:48.740 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:48.940 EventLevel:Information data:Article
+Time: 22:58:49.326 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:49.333 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:49.455 EventLevel:Information data:Article
+Time: 22:58:50.031 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:50.066 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:50.239 EventLevel:Information data:Article
+Time: 22:58:50.473 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:50.539 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:50.676 EventLevel:Information data:Article
+Time: 22:58:50.693 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:50.704 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:50.919 EventLevel:Information data:Article
+Time: 22:58:50.922 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:50.968 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:51.093 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:51.125 EventLevel:Information data:Article
+Time: 22:58:51.162 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:51.263 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:51.292 EventLevel:Information data:Article
+Time: 22:58:51.317 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:51.463 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:51.514 EventLevel:Information data:Article
+Time: 22:58:51.519 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:51.646 EventLevel:Information data:Article
+Time: 22:58:51.812 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:51.822 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:51.936 EventLevel:Information data:Article
+Time: 22:58:52.002 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:52.017 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:52.138 EventLevel:Information data:Article
+Time: 22:58:52.180 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:52.233 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:52.357 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:52.422 EventLevel:Information data:Article
+Time: 22:58:52.428 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:52.532 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:52.540 EventLevel:Information data:Article
+Time: 22:58:52.544 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:52.726 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:52.740 EventLevel:Information data:Article
+Time: 22:58:52.746 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:52.856 EventLevel:Information data:Article
+Time: 22:58:52.909 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:52.916 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:53.095 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:53.122 EventLevel:Information data:Article
+Time: 22:58:53.128 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:53.257 EventLevel:Information data:Article
+Time: 22:58:53.279 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:58:53.293 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:58:53.410 EventLevel:Information data:Article
+Time: 22:59:00.389 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:59:00.526 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:59:01.115 EventLevel:Information data:Article
+Time: 22:59:26.631 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:59:26.642 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:59:26.923 EventLevel:Information data:Article
+Time: 22:59:33.813 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:59:33.834 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:59:34.005 EventLevel:Information data:Article
+Time: 22:59:34.854 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:59:34.884 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:59:35.110 EventLevel:Information data:Article
+Time: 22:59:35.834 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:59:35.858 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:59:36.028 EventLevel:Information data:Article
+Time: 22:59:36.462 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:59:36.470 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:59:36.605 EventLevel:Information data:Article
+Time: 23:01:38.700 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:01:38.707 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:01:39.014 EventLevel:Information data:Article
+Time: 23:01:39.194 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:01:39.213 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 23:01:39.322 EventLevel:Information data:Article
+Time: 23:01:39.964 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:01:39.988 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:01:40.171 EventLevel:Information data:Article
+Time: 23:01:40.319 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:01:40.342 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 23:01:40.485 EventLevel:Information data:Article
+Time: 23:03:03.481 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:03:03.494 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:03:03.719 EventLevel:Information data:Article
+Time: 23:03:03.956 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:03:04.017 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 23:03:04.234 EventLevel:Information data:Article
+Time: 23:03:05.182 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:03:05.254 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:03:05.687 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:03:05.804 EventLevel:Information data:Article
+Time: 23:03:05.825 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,20
+Time: 23:03:05.847 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:03:06.056 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 23:03:07.114 EventLevel:Information data:Article
+Time: 23:03:07.651 EventLevel:Information data:Article
+Time: 23:03:19.957 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:03:19.973 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,50
+Time: 23:03:20.585 EventLevel:Information data:Article
+Time: 23:03:23.697 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:03:23.714 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,20
+Time: 23:03:24.290 EventLevel:Information data:Article
+Time: 23:05:00.854 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:05:00.877 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:05:01.031 EventLevel:Information data:Article
+Time: 23:05:01.069 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:05:01.077 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 23:05:01.235 EventLevel:Information data:Article
+Time: 23:05:01.667 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:05:01.680 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:05:01.711 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:05:01.808 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,20
+Time: 23:05:01.813 EventLevel:Information data:Article
+Time: 23:05:01.841 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:05:01.927 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 23:05:02.197 EventLevel:Information data:Article
+Time: 23:05:02.324 EventLevel:Information data:Article
+Time: 23:05:18.153 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:05:18.173 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:05:18.440 EventLevel:Information data:Article
+Time: 23:05:18.466 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:05:18.481 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 23:05:18.562 EventLevel:Information data:Article
+Time: 23:05:18.959 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:05:18.979 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:05:19.182 EventLevel:Information data:Article
+Time: 23:06:02.029 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:06:02.046 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:06:02.188 EventLevel:Information data:Article
+Time: 23:06:02.431 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:06:02.441 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 23:06:02.556 EventLevel:Information data:Article
+Time: 23:06:03.136 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:06:03.178 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:06:03.306 EventLevel:Information data:Article
+Time: 23:06:03.589 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:06:03.614 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 23:06:03.715 EventLevel:Information data:Article
+Time: 23:06:53.581 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:06:53.614 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:06:53.779 EventLevel:Information data:Article
+Time: 23:06:53.824 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:06:53.860 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 23:06:53.926 EventLevel:Information data:Article
+Time: 23:06:54.438 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:06:54.479 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:06:54.628 EventLevel:Information data:Article
+Time: 23:06:54.669 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:06:54.701 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 23:06:54.794 EventLevel:Information data:Article
+Time: 23:07:19.252 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:07:19.278 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 5,5
+Time: 23:07:19.337 EventLevel:Information data:Article
+Time: 23:07:26.516 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:07:26.548 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 10,5
+Time: 23:07:26.755 EventLevel:Information data:Article
+Time: 23:07:32.893 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:07:32.919 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 15,5
+Time: 23:07:33.051 EventLevel:Information data:Article
+Time: 23:07:35.617 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:07:35.640 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 20,5
+Time: 23:07:35.656 EventLevel:Information data:Article
+Time: 23:07:38.141 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:07:38.152 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:07:38.281 EventLevel:Information data:Article
+Time: 23:07:39.260 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:07:39.270 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:07:39.541 EventLevel:Information data:Article
+Time: 23:07:41.297 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:07:41.317 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:07:41.522 EventLevel:Information data:Article
+Time: 23:07:41.542 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:07:41.551 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 23:07:41.624 EventLevel:Information data:Article
+Time: 23:07:42.028 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:07:42.039 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:07:42.180 EventLevel:Information data:Article
+Time: 23:07:42.211 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:07:42.218 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Msgcount` DESC LIMIT 0,5
+Time: 23:07:42.301 EventLevel:Information data:Article
+Time: 23:07:44.407 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:07:44.431 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 5,5
+Time: 23:07:44.545 EventLevel:Information data:Article
+Time: 23:07:58.960 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:07:58.977 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 10,5
+Time: 23:07:59.215 EventLevel:Information data:Article
+Time: 23:08:17.127 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:08:17.134 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 15,5
+Time: 23:08:17.234 EventLevel:Information data:Article
+Time: 23:12:18.559 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:12:18.574 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 5,5
+Time: 23:12:18.613 EventLevel:Information data:Article
+Time: 23:12:23.007 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:12:23.014 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:12:23.164 EventLevel:Information data:Article
+Time: 23:12:25.564 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:12:25.575 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 15,5
+Time: 23:12:25.709 EventLevel:Information data:Article
+Time: 23:12:28.820 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:12:28.834 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 20,5
+Time: 23:12:28.853 EventLevel:Information data:Article
+Time: 23:12:31.012 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:12:31.030 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 15,5
+Time: 23:12:31.467 EventLevel:Information data:Article
+Time: 23:12:33.891 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:12:33.941 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 10,5
+Time: 23:12:34.213 EventLevel:Information data:Article
+Time: 23:12:34.764 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:12:34.785 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 5,5
+Time: 23:12:34.823 EventLevel:Information data:Article

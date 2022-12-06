@@ -1,0 +1,296 @@
+Time: 21:13:50.684 EventLevel:Debug data:Hosting starting
+Time: 21:13:52.176 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 21:13:52.178 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 21:13:52.178 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 21:13:52.178 EventLevel:Information data:Hosting environment: "Development"
+Time: 21:13:52.178 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 21:13:52.178 EventLevel:Debug data:Hosting started
+Time: 21:19:24.015 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:19:24.851 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:19:25.973 EventLevel:Information data:Article
+Time: 21:19:26.430 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:19:26.464 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:19:27.622 EventLevel:Information data:OnLogExecuted:-0-Start-usetime:00:00:01.1029813
+Time: 21:19:27.758 EventLevel:Information data:Article
+Time: 21:19:49.853 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:19:49.863 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:19:50.057 EventLevel:Information data:Article
+Time: 21:42:53.670 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:42:53.739 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:42:54.115 EventLevel:Information data:Article
+Time: 21:43:15.731 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:43:15.745 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:43:16.217 EventLevel:Information data:Article
+Time: 21:43:26.335 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:43:26.348 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:43:26.598 EventLevel:Information data:Article
+Time: 21:44:03.033 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:44:03.086 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:44:03.363 EventLevel:Information data:Article
+Time: 21:55:16.037 EventLevel:Debug data:Hosting starting
+Time: 21:55:16.676 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 21:55:16.678 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 21:55:16.679 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 21:55:16.679 EventLevel:Information data:Hosting environment: "Development"
+Time: 21:55:16.679 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 21:55:16.679 EventLevel:Debug data:Hosting started
+Time: 21:55:34.665 EventLevel:Debug data:Hosting starting
+Time: 21:55:35.294 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 21:55:35.298 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 21:55:35.298 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 21:55:35.298 EventLevel:Information data:Hosting environment: "Development"
+Time: 21:55:35.298 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 21:55:35.299 EventLevel:Debug data:Hosting started
+Time: 21:55:44.719 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` = @isdelete1 )) 
+Time: 21:56:02.248 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` = @isdelete1 )) 
+Time: 21:56:12.647 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` = @isdelete1 )) 
+Time: 21:56:18.328 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` = @isdelete1 )) 
+Time: 21:57:01.766 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` = @isdelete1 )) 
+Time: 21:57:54.225 EventLevel:Debug data:Hosting starting
+Time: 21:57:54.860 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 21:57:54.863 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 21:57:54.866 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 21:57:54.866 EventLevel:Information data:Hosting environment: "Development"
+Time: 21:57:54.866 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 21:57:54.866 EventLevel:Debug data:Hosting started
+Time: 21:57:57.834 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 )) 
+Time: 21:59:08.512 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 )) 
+Time: 21:59:23.892 EventLevel:Debug data:Hosting starting
+Time: 21:59:24.457 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 21:59:24.473 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 21:59:24.474 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 21:59:24.474 EventLevel:Information data:Hosting environment: "Development"
+Time: 21:59:24.474 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 21:59:24.474 EventLevel:Debug data:Hosting started
+Time: 21:59:28.038 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 )) 
+Time: 22:00:26.969 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:00:26.989 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:00:27.297 EventLevel:Information data:Article
+Time: 22:00:27.647 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:00:27.699 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:00:27.956 EventLevel:Information data:Article
+Time: 22:00:48.896 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:00:48.913 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:00:49.263 EventLevel:Information data:Article
+Time: 22:05:40.592 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 )) 
+Time: 22:07:37.102 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 )) 
+Time: 22:09:05.018 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 )) 
+Time: 22:12:02.621 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 )) 
+Time: 22:12:46.961 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 )) 
+Time: 22:19:08.032 EventLevel:Debug data:Hosting starting
+Time: 22:19:08.451 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 22:19:08.455 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 22:19:08.456 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 22:19:08.457 EventLevel:Information data:Hosting environment: "Development"
+Time: 22:19:08.457 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 22:19:08.457 EventLevel:Debug data:Hosting started
+Time: 22:22:04.969 EventLevel:Debug data:Hosting starting
+Time: 22:22:05.563 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 22:22:05.567 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 22:22:05.568 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 22:22:05.570 EventLevel:Information data:Hosting environment: "Development"
+Time: 22:22:05.570 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 22:22:05.570 EventLevel:Debug data:Hosting started
+Time: 22:22:36.739 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 )) 
+Time: 22:23:25.373 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 )) 
+Time: 22:24:48.969 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 )) 
+Time: 22:26:14.907 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 )) 
+Time: 22:28:04.653 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`  WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 )) 
+Time: 22:30:03.938 EventLevel:Debug data:Hosting starting
+Time: 22:30:04.526 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 22:30:04.529 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 22:30:04.529 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 22:30:04.530 EventLevel:Information data:Hosting environment: "Development"
+Time: 22:30:04.530 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 22:30:04.530 EventLevel:Debug data:Hosting started
+Time: 22:30:31.496 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:31:10.282 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:32:32.997 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:33:32.568 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:38:55.698 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:39:33.999 EventLevel:Debug data:Hosting starting
+Time: 22:39:34.436 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 22:39:34.439 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 22:39:34.439 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 22:39:34.439 EventLevel:Information data:Hosting environment: "Development"
+Time: 22:39:34.439 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 22:39:34.439 EventLevel:Debug data:Hosting started
+Time: 22:39:37.998 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:39:48.074 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:40:22.981 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:40:23.017 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:40:23.394 EventLevel:Information data:Article
+Time: 22:40:25.670 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:41:58.646 EventLevel:Error data:An unhandled exception has occurred while executing the request.
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at SqlSugar.UpdateableProvider`1.SetUpdateItemByEntity(Int32 i, T item, List`1 updateItem)
+   at SqlSugar.UpdateableProvider`1.Init()
+   at SqlSugar.SqlSugarProvider.CreateUpdateable[T](T[] UpdateObjs)
+   at SqlSugar.SqlSugarProvider.Updateable[T](T[] UpdateObjs)
+   at SqlSugar.SqlSugarProvider.Updateable[T](T UpdateObj)
+   at SqlSugar.SqlSugarClient.Updateable[T](T UpdateObj)
+   at SqlSugar.SqlSugarScope.Updateable[T](T UpdateObj)
+   at Like.Dao.BaseDao`1.Update(T model, Expression`1 expression) in F:\code\AuthorizedServiceCenter\Like.Dal\BaseDao.cs:line 38
+   at Like.LikeYou.Controllers.AdminController.UpdateUser(User login) in F:\code\AuthorizedServiceCenter\Like.LikeYou\Controllers\AdminController.cs:line 24
+   at lambda_method33(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Time: 22:42:45.136 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 22:42:45.165 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 22:42:45.630 EventLevel:Information data:Article
+Time: 22:42:54.817 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:43:32.834 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:48:01.063 EventLevel:Debug data:Hosting starting
+Time: 22:48:01.655 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 22:48:01.658 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 22:48:01.659 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 22:48:01.660 EventLevel:Information data:Hosting environment: "Development"
+Time: 22:48:01.660 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 22:48:01.661 EventLevel:Debug data:Hosting started
+Time: 22:49:58.359 EventLevel:Error data:An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at SqlSugar.UpdateableProvider`1.<>c__DisplayClass121_0.<_WhereColumn>b__1(DbColumnInfo y)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at SqlSugar.UpdateableProvider`1._WhereColumn(String columnName)
+   at SqlSugar.UpdateableProvider`1.WhereColumns(Expression`1 columns)
+   at Like.Dao.BaseDao`1.Update(T model, Expression`1 expression) in F:\code\AuthorizedServiceCenter\Like.Dal\BaseDao.cs:line 38
+   at Like.LikeYou.Controllers.AdminController.UpdateUser(User login) in F:\code\AuthorizedServiceCenter\Like.LikeYou\Controllers\AdminController.cs:line 24
+   at lambda_method9(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Time: 22:55:22.615 EventLevel:Debug data:Hosting starting
+Time: 22:55:23.259 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 22:55:23.262 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 22:55:23.263 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 22:55:23.263 EventLevel:Information data:Hosting environment: "Development"
+Time: 22:55:23.263 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 22:55:23.263 EventLevel:Debug data:Hosting started
+Time: 23:01:31.356 EventLevel:Debug data:Hosting starting
+Time: 23:01:32.096 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 23:01:32.099 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 23:01:32.100 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 23:01:32.101 EventLevel:Information data:Hosting environment: "Development"
+Time: 23:01:32.101 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 23:01:32.101 EventLevel:Debug data:Hosting started
+Time: 23:01:43.499 EventLevel:Information data:UPDATE `User`  SET
+           `id`=@id,`UserName`=@UserName,`PassWord`=@PassWord,`CreateTime`=@CreateTime,`CreateUser`=@CreateUser,`PhoneNumber`=@PhoneNumber,`PersonID`=@PersonID,`NikoID`=@NikoID,`PicPath`=@PicPath,`IDCard`=@IDCard,`Role`=@Role,`SEX`=@SEX,`Eamil`=@Eamil,`VIP`=@VIP,`remake`=@remake,`isdelete`=@isdelete,`usertile`=@usertile,`address`=@address,`userlevel`=@userlevel,`nationplace`=@nationplace,`focus`=@focus,`fans`=@fans,`commpany`=@commpany,`depatment`=@depatment,`technology`=@technology,`integralid`=@integralid,`QQNumber`=@QQNumber  WHERE (( `id` = @id0 ) AND ( `isdelete` <> @isdelete1 ))
+Time: 23:01:58.085 EventLevel:Information data:UPDATE `User`  SET
+           `id`=@id,`UserName`=@UserName,`PassWord`=@PassWord,`CreateTime`=@CreateTime,`CreateUser`=@CreateUser,`PhoneNumber`=@PhoneNumber,`PersonID`=@PersonID,`NikoID`=@NikoID,`PicPath`=@PicPath,`IDCard`=@IDCard,`Role`=@Role,`SEX`=@SEX,`Eamil`=@Eamil,`VIP`=@VIP,`remake`=@remake,`isdelete`=@isdelete,`usertile`=@usertile,`address`=@address,`userlevel`=@userlevel,`nationplace`=@nationplace,`focus`=@focus,`fans`=@fans,`commpany`=@commpany,`depatment`=@depatment,`technology`=@technology,`integralid`=@integralid,`QQNumber`=@QQNumber  WHERE (( `id` = @id0 ) AND ( `isdelete` <> @isdelete1 ))
+Time: 23:03:14.950 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 23:11:16.743 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 23:16:03.238 EventLevel:Error data:An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Like.LikeYou.Controllers.ArticleController.AddArticle(Article Inarticle)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Time: 23:16:55.423 EventLevel:Debug data:Hosting starting
+Time: 23:16:55.968 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 23:16:55.971 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 23:16:55.972 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 23:16:55.972 EventLevel:Information data:Hosting environment: "Development"
+Time: 23:16:55.972 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 23:16:55.972 EventLevel:Debug data:Hosting started
+Time: 23:17:53.316 EventLevel:Error data:An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Like.LikeYou.Controllers.ArticleController.AddArticle(Article Inarticle) in F:\code\AuthorizedServiceCenter\Like.LikeYou\Controllers\ArticleController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Time: 23:22:18.187 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 23:23:31.111 EventLevel:Debug data:Hosting starting
+Time: 23:23:31.607 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 23:23:31.610 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 23:23:31.611 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 23:23:31.611 EventLevel:Information data:Hosting environment: "Development"
+Time: 23:23:31.611 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 23:23:31.611 EventLevel:Debug data:Hosting started
+Time: 23:24:00.774 EventLevel:Information data:UPDATE `User`  SET
+           `id`=@id,`CreateTime`=@CreateTime,`Role`=@Role,`SEX`=@SEX,`VIP`=@VIP,`isdelete`=@isdelete,`userlevel`=@userlevel,`focus`=@focus,`fans`=@fans,`integralid`=@integralid  WHERE (( `id` = @id0 ) AND ( `isdelete` <> @isdelete1 ))
+Time: 23:24:24.587 EventLevel:Information data:UPDATE `User`  SET
+           `id`=@id,`CreateTime`=@CreateTime,`Role`=@Role,`SEX`=@SEX,`VIP`=@VIP,`isdelete`=@isdelete,`userlevel`=@userlevel,`focus`=@focus,`fans`=@fans,`integralid`=@integralid  WHERE (( `id` = @id0 ) AND ( `isdelete` <> @isdelete1 ))
+Time: 23:24:39.771 EventLevel:Debug data:Hosting starting
+Time: 23:24:40.384 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 23:24:40.387 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 23:24:40.387 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 23:24:40.388 EventLevel:Information data:Hosting environment: "Development"
+Time: 23:24:40.388 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 23:24:40.388 EventLevel:Debug data:Hosting started

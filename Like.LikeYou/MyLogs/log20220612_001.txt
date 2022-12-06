@@ -1,0 +1,105 @@
+Time: 17:39:04.978 EventLevel:Debug data:Hosting starting
+Time: 19:50:34.249 EventLevel:Debug data:Hosting starting
+Time: 19:50:35.899 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 19:50:35.902 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 19:50:35.902 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 19:50:35.902 EventLevel:Information data:Hosting environment: "Development"
+Time: 19:50:35.903 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 19:50:35.903 EventLevel:Debug data:Hosting started
+Time: 19:51:02.450 EventLevel:Debug data:Hosting starting
+Time: 19:51:03.076 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 19:51:03.079 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 19:51:03.080 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 19:51:03.080 EventLevel:Information data:Hosting environment: "Development"
+Time: 19:51:03.080 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 19:51:03.080 EventLevel:Debug data:Hosting started
+Time: 19:53:25.786 EventLevel:Debug data:Hosting starting
+Time: 19:53:26.449 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 19:53:26.454 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 19:53:26.454 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 19:53:26.454 EventLevel:Information data:Hosting environment: "Development"
+Time: 19:53:26.455 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 19:53:26.455 EventLevel:Debug data:Hosting started
+Time: 20:27:08.795 EventLevel:Debug data:Hosting starting
+Time: 20:27:09.437 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 20:27:09.443 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 20:27:09.443 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 20:27:09.443 EventLevel:Information data:Hosting environment: "Development"
+Time: 20:27:09.444 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 20:27:09.444 EventLevel:Debug data:Hosting started
+Time: 20:27:35.322 EventLevel:Debug data:Hosting starting
+Time: 20:27:35.892 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 20:27:35.896 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 20:27:35.897 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 20:27:35.897 EventLevel:Information data:Hosting environment: "Development"
+Time: 20:27:35.897 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 20:27:35.897 EventLevel:Debug data:Hosting started
+Time: 20:38:26.434 EventLevel:Debug data:Hosting starting
+Time: 20:38:27.114 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 20:38:27.120 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 20:38:27.121 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 20:38:27.121 EventLevel:Information data:Hosting environment: "Development"
+Time: 20:38:27.121 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 20:38:27.121 EventLevel:Debug data:Hosting started
+Time: 21:05:52.421 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`  WHERE `Id` = @InPara0   
+Time: 21:05:53.131 EventLevel:Information data:INSERT INTO `article`  
+           (`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow`)
+     VALUES
+           (@Title,@SubTitle,@AritcleTxt,@AritcleTxtShow,@Userid,@Createtime,@Msgcount,@Isdelete,@AID,@HtmlString,@UpdateTime,@UpdateBy,@AritcleUrl,@AritcleType,@IsForwarding,@PicURL,@tag,@PicShow) ;SELECT LAST_INSERT_ID();
+Time: 21:06:02.874 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:06:03.668 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:06:05.286 EventLevel:Information data:OnLogExecuted:-0-Start-usetime:00:00:01.6097887
+Time: 21:06:06.095 EventLevel:Information data:Article
+Time: 21:21:59.611 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:22:00.214 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:22:01.957 EventLevel:Information data:Article
+Time: 21:22:02.821 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 21:22:02.997 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 21:22:03.264 EventLevel:Information data:Article
+Time: 21:22:05.268 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:24:01.058 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:24:01.058 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:24:01.059 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:24:22.427 EventLevel:Information data:UPDATE `User`  SET
+           `id`=@id,`UserName`=@UserName,`PassWord`=@PassWord,`CreateTime`=@CreateTime,`PersonID`=@PersonID,`Role`=@Role,`SEX`=@SEX,`Eamil`=@Eamil,`VIP`=@VIP,`remake`=@remake,`isdelete`=@isdelete,`userlevel`=@userlevel,`focus`=@focus,`fans`=@fans,`integralid`=@integralid,`QQNumber`=@QQNumber  WHERE (( `id` = @id0 ) AND ( `isdelete` <> @isdelete1 ))
+Time: 21:24:30.634 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:24:55.179 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 21:27:09.382 EventLevel:Information data:UPDATE `User`  SET
+           `id`=@id,`UserName`=@UserName,`PassWord`=@PassWord,`CreateTime`=@CreateTime,`PersonID`=@PersonID,`Role`=@Role,`SEX`=@SEX,`Eamil`=@Eamil,`VIP`=@VIP,`remake`=@remake,`isdelete`=@isdelete,`userlevel`=@userlevel,`focus`=@focus,`fans`=@fans,`integralid`=@integralid,`QQNumber`=@QQNumber  WHERE (( `id` = @id0 ) AND ( `isdelete` <> @isdelete1 ))
+Time: 21:28:18.862 EventLevel:Information data:UPDATE `User`  SET
+           `id`=@id,`UserName`=@UserName,`PassWord`=@PassWord,`CreateTime`=@CreateTime,`PersonID`=@PersonID,`Role`=@Role,`SEX`=@SEX,`Eamil`=@Eamil,`VIP`=@VIP,`remake`=@remake,`isdelete`=@isdelete,`userlevel`=@userlevel,`focus`=@focus,`fans`=@fans,`integralid`=@integralid,`QQNumber`=@QQNumber  WHERE (( `id` = @id0 ) AND ( `isdelete` <> @isdelete1 ))
+Time: 22:20:40.684 EventLevel:Debug data:Hosting starting
+Time: 22:20:41.151 EventLevel:Information data:Now listening on: "https://localhost:7001"
+Time: 22:20:41.155 EventLevel:Information data:Now listening on: "http://localhost:7000"
+Time: 22:20:41.155 EventLevel:Information data:Application started. Press Ctrl+C to shut down.
+Time: 22:20:41.156 EventLevel:Information data:Hosting environment: "Development"
+Time: 22:20:41.156 EventLevel:Information data:Content root path: "F:\code\AuthorizedServiceCenter\Like.LikeYou"
+Time: 22:20:41.156 EventLevel:Debug data:Hosting started
+Time: 22:20:56.400 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:37:39.368 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:37:53.795 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:38:02.519 EventLevel:Information data:UPDATE `User`  SET
+           `id`=@id,`UserName`=@UserName,`CreateTime`=@CreateTime,`UpdateTime`=@UpdateTime,`PhoneNumber`=@PhoneNumber,`Role`=@Role,`SEX`=@SEX,`Eamil`=@Eamil,`VIP`=@VIP,`remake`=@remake,`isdelete`=@isdelete,`userlevel`=@userlevel,`focus`=@focus,`fans`=@fans,`integralid`=@integralid,`QQNumber`=@QQNumber  WHERE (( `id` = @id0 ) AND ( `isdelete` <> @isdelete1 ))
+Time: 22:38:14.520 EventLevel:Information data:UPDATE `User`  SET
+           `id`=@id,`UserName`=@UserName,`CreateTime`=@CreateTime,`UpdateTime`=@UpdateTime,`PhoneNumber`=@PhoneNumber,`Role`=@Role,`SEX`=@SEX,`Eamil`=@Eamil,`VIP`=@VIP,`remake`=@remake,`isdelete`=@isdelete,`userlevel`=@userlevel,`focus`=@focus,`fans`=@fans,`integralid`=@integralid,`QQNumber`=@QQNumber  WHERE (( `id` = @id0 ) AND ( `isdelete` <> @isdelete1 ))
+Time: 22:38:23.344 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:38:30.343 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:39:06.067 EventLevel:Information data:UPDATE `User`  SET
+           `id`=@id,`UserName`=@UserName,`PassWord`=@PassWord,`CreateTime`=@CreateTime,`UpdateTime`=@UpdateTime,`PhoneNumber`=@PhoneNumber,`PersonID`=@PersonID,`Role`=@Role,`SEX`=@SEX,`Eamil`=@Eamil,`VIP`=@VIP,`remake`=@remake,`isdelete`=@isdelete,`userlevel`=@userlevel,`focus`=@focus,`fans`=@fans,`integralid`=@integralid,`QQNumber`=@QQNumber  WHERE (( `id` = @id0 ) AND ( `isdelete` <> @isdelete1 ))
+Time: 22:39:10.915 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 22:39:56.370 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 23:03:44.180 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 23:03:44.181 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 23:06:21.383 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 23:06:21.383 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 23:07:29.417 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 23:07:29.417 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 23:08:17.530 EventLevel:Information data:UPDATE `User`  SET
+           `id`=@id,`UserName`=@UserName,`PassWord`=@PassWord,`CreateTime`=@CreateTime,`UpdateTime`=@UpdateTime,`PhoneNumber`=@PhoneNumber,`PersonID`=@PersonID,`Role`=@Role,`SEX`=@SEX,`Eamil`=@Eamil,`VIP`=@VIP,`remake`=@remake,`isdelete`=@isdelete,`userlevel`=@userlevel,`focus`=@focus,`fans`=@fans,`integralid`=@integralid,`QQNumber`=@QQNumber  WHERE (( `id` = @id0 ) AND ( `isdelete` <> @isdelete1 ))
+Time: 23:08:42.996 EventLevel:Information data:UPDATE `User`  SET
+           `id`=@id,`UserName`=@UserName,`PassWord`=@PassWord,`CreateTime`=@CreateTime,`UpdateTime`=@UpdateTime,`PhoneNumber`=@PhoneNumber,`PersonID`=@PersonID,`Role`=@Role,`SEX`=@SEX,`Eamil`=@Eamil,`VIP`=@VIP,`remake`=@remake,`isdelete`=@isdelete,`userlevel`=@userlevel,`focus`=@focus,`fans`=@fans,`integralid`=@integralid,`QQNumber`=@QQNumber  WHERE (( `id` = @id0 ) AND ( `isdelete` <> @isdelete1 ))
+Time: 23:08:46.413 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 23:08:46.413 EventLevel:Information data:SELECT `id`,`UserName`,`PassWord`,`CreateTime`,`UpdateTime`,`CreateUser`,`PhoneNumber`,`PersonID`,`NikoID`,`PicPath`,`IDCard`,`Role`,`SEX`,`Eamil`,`VIP`,`remake`,`isdelete`,`usertile`,`address`,`userlevel`,`nationplace`,`focus`,`fans`,`commpany`,`depatment`,`technology`,`integralid`,`QQNumber` FROM `User`   WHERE (( `PersonID` = @PersonID0 ) AND ( `isdelete` <> @isdelete1 ))  ORDER BY NOW()  LIMIT 0,1
+Time: 23:09:16.322 EventLevel:Information data:SELECT Count(*) FROM `article`  WHERE ( `Isdelete` = @Isdelete0 ) 
+Time: 23:09:16.349 EventLevel:Information data:SELECT `Id`,`Title`,`SubTitle`,`AritcleTxt`,`AritcleTxtShow`,`Userid`,`Createtime`,`Msgcount`,`Isdelete`,`AID`,`HtmlString`,`UpdateTime`,`UpdateBy`,`AritcleUrl`,`AritcleType`,`IsForwarding`,`PicURL`,`tag`,`PicShow` FROM `article`   WHERE ( `Isdelete` = @Isdelete0 )  ORDER BY `Id` DESC LIMIT 0,5
+Time: 23:09:16.647 EventLevel:Information data:Article
